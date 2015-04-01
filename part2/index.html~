@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Haleigh's Sports Slideshow</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css">
+<link rel="jquery" href="jquery.audioshow.js">
+<link rel="jquery" href="jquery.jplayer.js">
+</head>
+<body>
+<div class="audio-slideshow" data-audio="audio.mp3" data-audio-duration="161">
+	<div class="audio-slides">
+		<img src="Bruins-Rask-640-gety_ad_hoc.jpg" data-thumbnail="thumbnail.jpg" data-slide-time="0">
+		<img src="image.jpg" data-thumbnail="thumbnail.jpg" data-slide-time="1">
+	</div>
+	<div class="audio-control-interface">
+		<div class="play-pause-container">
+			<a href="javascript:;" class="audio-play" tabindex="1">Play</a>
+			<a href="javascript:;" class="audio-pause" tabindex="1">Pause</a>
+		</div>
+		<div class="time-container">
+			<span class="play-time"></span> / <span class="total-time"></span>
+		</div>
+
+		<div class="timeline">
+			<div class="timeline-controls"></div>
+			<div class="playhead"></div>
+		</div>
+
+	 	<div class="jplayer"></div>
+	</div>
+</div>
+</body>
+</html>

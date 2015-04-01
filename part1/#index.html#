@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Haleigh Crossman</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:700' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/dayandnight.js"></script>
+
+<script defer src="COM402/project2/part1/js/dayandnight.js"></script>
+</head>
+<body>
+<label for="lightswitch" class="switch">Light Switch</label>
+<input type="checkbox" id="lightswitch"/>
+
+<div class="main">
+<h2>Boston by Day</h2>
+<div class="features">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+   <p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+</div>
+
+<div class="headerimage">
+</div>
+</div>
+</body>
+</html>

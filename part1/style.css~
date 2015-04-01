@@ -1,0 +1,118 @@
+/*Sizing & Transition*/
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 1s ease;
+}
+
+html, body {
+  height: 100%;
+  background-color: #C1B6AC;
+}
+
+/*Wrapper*/
+.main {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+/*Headline*/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 70px "Old Standard TT, serif";
+  margin-bottom: 20px;
+  color: #102E78;
+}
+
+h2:after {
+	content: "At Day";
+}
+
+/*Feature Paragraphs*/
+.features {
+  width: 940px;
+  margin: 0 auto 30px auto;
+}
+
+.features p {
+  width: 33.33%;
+  float: left;
+  padding: 0 20px;
+  font: 13px/1.5 "Old Standard TT, serif";
+  color: #102E78;
+}
+
+.last {
+  padding-right: 0;
+}
+
+.features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Big Photo*/
+.headerimage {
+  height: 400px;
+  width: 900px;
+  margin: 0 auto;
+  border: 8px solid #102E78;
+  background: url(boston.jpg);
+}
+
+/*Light Switch*/
+label {
+  display: block;
+  height: 25px;
+  width: 100px;
+  background: #eee;
+  color: #102E78;
+  text-align: center;
+  font: 14px/25px Helvetica, Arial, sans-serif;
+  margin: 20px 0;
+  position: fixed;
+}
+
+label:hover {
+  background: #ddca7e;
+  color: #fff;
+  cursor: pointer;
+}
+
+input#lightswitch {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+
+/*Switched Off*/
+input#lightswitch:checked + .main {
+  background: #222;
+}
+
+input#lightswitch:checked + .main h2 {
+  color: #753C93;
+}
+
+input#lightswitch:checked + .main h2:after {
+  content: "At Night";
+  color: #753C93;
+  font: 70px "Old Standard TT, serif";
+}
+
+input#lightswitch:checked + .main p {
+  color: #753C93;
+}
+
+input#lightswitch:checked + .main > .headerimage {
+  border: 8px solid #753C93;
+  background: url(boston2.jpg);
+}

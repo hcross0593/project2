@@ -1,0 +1,40 @@
+$(document).ready(function(){
+console.log("does this work");
+	$(".switch").on('click',function(){
+	console.log("i clicked");		
+	   //make it dark!
+	   ///background becomes black
+	   //text becomes purple
+	   //border becomes purple
+	   //h2 changes text
+	   //image changes
+	$("body").css("background-color", "black");
+	$("body").css("color", "purple");
+	$("body").css("border-color" , "purple");
+	$("body").css("h2", "purple");		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	});
+	//$(lightswitch).off('click',function(){
+	//    $(this).fadeOut('task-done);
+	//});
+
+
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+});
+

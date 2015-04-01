@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boston Sports</title>
+
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    
+</head>
+<body>
+<div class="flexslider">  
+<ul class ="slides">
+        <li>
+            <img src="Project_2_Pictures/Fenway-park.jpg"></li>
+        <li>
+            <img src="Project_2_Pictures/Jonathan_Papelbon_warmups_2008.jpg"></li>
+        <li>
+            <img src="Project_2_Pictures/boston-national-anthem.jpg"></li>
+        <li>
+            <img src="Project_2_Pictures/Bruins-Rask-640-getty_ad_hoc.jpg"></li>
+        <li>
+            <img src="Project_2_Pictures/bos_e_gillette01jr_576.jpg"></li>
+        <li>
+            <img src="Project_2_Pictures/Rob-Gronkowski-6.jpg"></li>
+        <li>
+            <img src="Project_2_Pictures/interior.jpg"></li>
+        <li>
+            <img src="Project_2_Pictures/rondo_parquet_eyes300450.jpg"></li>
+</ul>
+</div>  
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<script defer src="js/jquery.flexslider-min.js"></script>
+    
+  <script>  
+$(window).load(function() {
+
+console.log('does this work');
+
+
+
+    $('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 410,
+    itemMargin: 5
+  });
+});
+    </script>
+      
+</body>
+</html>
